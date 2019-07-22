@@ -1,13 +1,13 @@
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  const token = '';
+  const token = 'dc39f8ac3be84e0fc077eeb7f2265f347a22c120';
 const postData = {
   body: 'Great stuff'
 };
  
 fetch(
-  'https://api.github.com/repos/:your_ghname/:your_repo/commits/:sha/comments',
+  'https://api.github.com/repos/AtesSuToprak/:your_repo/commits/:sha/comments',
   {
     method: 'POST',
     body: JSON.stringify(postData),
