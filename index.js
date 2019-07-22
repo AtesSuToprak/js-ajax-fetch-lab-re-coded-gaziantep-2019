@@ -7,7 +7,7 @@ const postData = {
 };
  
 fetch(
-  'https://api.github.com/repos/AtesSuToprak/:your_repo/commits/:sha/comments',
+  'https://api.github.com/repos/AtesSuToprak/learn-co-sandbox/commits/:sha/comments',
   {
     method: 'POST',
     body: JSON.stringify(postData),
