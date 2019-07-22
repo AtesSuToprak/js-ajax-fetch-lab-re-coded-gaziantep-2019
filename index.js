@@ -23,6 +23,9 @@ function forkRepo() {
 
 function showResults(json) {
   //use this function to display the results from forking via the API
+  document.getElementById('results').innerHTML = `<a href=${json.html_url}>${
+    json.html_url
+  }</a>`;
 }
 
 function createIssue() {
