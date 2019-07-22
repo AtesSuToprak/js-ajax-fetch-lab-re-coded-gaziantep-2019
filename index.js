@@ -8,7 +8,7 @@ function getToken() {
 function forkRepo() {
   const repo = 'learn-co-curriculum/js-ajax-fetch-lab';
   //use fetch to fork it!
-  fetch('https://api.github.com/repos/AtesSuTorpak/learn-co-sandbox/commits/:sha/comments')
+  fetch('https://api.github.com/repos/AtesSuTorpak/learn-co-sandbox/commits/:sha/comments',)
 }
 
 function showResults(json) {
